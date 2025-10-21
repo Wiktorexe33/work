@@ -24,3 +24,6 @@ print("#   ||   #")
 print("##########")
 print("    /\\   ")
 print("   |  |  ")
+
+name = input("What is your name? ")
+print(f"It is nice to meet you {name}")
