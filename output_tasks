@@ -15,17 +15,3 @@ print("\" Displays a double quote")
 print("\' Displays a single quote") 
 print("\"\tI am programming!\"")
 
-robotEyes = input("Please enter a character for the eye \n")
-
-print("##########")
-print(f"# {robotEyes}    {robotEyes} #")
-print("#   --   #")
-print("##########")
-print("#  /||\\  #")
-print("#   ||   #")
-print("##########")
-print("    /\\   ")
-print("   |  |  ")
-
-name = input("What is your name? ")
-print(f"It is nice to meet you {name}")
