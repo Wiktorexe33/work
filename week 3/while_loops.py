@@ -52,3 +52,20 @@ while counter != 100:
     total += counter
 # Output the result
 print("...Done! The answer is", total)
+
+# Ask user how many numbers they want to sum
+print("How many numbers should I sum up?")
+numbers = int(input())
+
+# Initialize counter and total variables
+counter = 0
+total = 0
+
+# Loop to get each number and add to total
+while counter < numbers:
+    print("Please enter number " + str(counter + 1) + " of " + str(numbers) + ":")
+    num = int(input())
+    total = total + num
+    counter = counter + 1
+# Output answer
+print("The answer is " + str(total) + ".")
