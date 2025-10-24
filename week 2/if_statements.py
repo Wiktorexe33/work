@@ -19,3 +19,15 @@ else:
     print("Performing activity...")
 # Output a finishing message
 print("Activity completed.")
+
+# Get direction from user
+print("Towards which direction should I go (up, down, left or right)?")
+direction = input()
+
+# Determine movement based on direction
+if direction == "up" or direction == "down" or direction == "left" or direction == "right":
+    print("I am moving in the " + direction + "ward direction!")
+elif direction == "none":
+ print("I am not moving!")
+else:
+ print("Unknown direction!")
