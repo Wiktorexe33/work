@@ -32,3 +32,13 @@ print("Adjusting brightness... \n")
 # For loop to output brightness levels
 for i in range(2, level + 1, 2):
     print(f"Brightness level:{"*" *i}")
+
+# Ask user for a word
+print("What word do you see?")
+word = input()
+
+print("Displaying index positions...\n")
+
+# Loop through each character in the word and output its index and character
+for i in range(0, len(word), 1):
+    print(f"index {i} : {word[i]}")
