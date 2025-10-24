@@ -12,3 +12,14 @@ for mountain in range(mountainsToDisplay):
     print("--------")
 # Output done
 print("Done!")
+
+# Ask user for steps to target
+print("How far are we from the target?")
+stepsToTarget = int(input())
+
+# Loop to count down steps to target
+for step in range(stepsToTarget):
+    print(str(stepsToTarget - step) + " steps remaining")
+
+# Output target achieved
+print("Target achieved!")
