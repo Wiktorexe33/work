@@ -33,3 +33,9 @@ while barsCharged < barsToCharge:
     print(f"Charging: {"█" * barsCharged}")
 
 print("The battery is fully charged.")
+
+# Ask user to enter a phrase
+print("Please enter a phrase:")
+phrase = input()
+# Output Hi repeated as many times as the length of the phrase
+print("Hi " * len(phrase)) 
