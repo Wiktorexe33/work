@@ -54,3 +54,25 @@ elif secondNumber > firstNumber:
  print("The first number is the smallest.")
 else:
  print("Both are equal!")
+
+ # Get three numbers from the user
+print("Please enter the first whole number.")
+firstNumber = int(input())
+print("Please enter the second whole number.")
+secondNumber = int(input())
+print("Please enter the third whole number.")
+thirdNumber = int(input())
+
+# Determine amount of odd and even numbers
+oddCount = 0
+evenCount = 0
+listofNumbers = [firstNumber, secondNumber, thirdNumber]
+for number in listofNumbers:
+    if number % 2 == 0:
+        evenCount += 1
+    else:
+        oddCount += 1
+
+# Output results
+print(f"There were {evenCount} even and {oddCount} odd numbers.")
+
