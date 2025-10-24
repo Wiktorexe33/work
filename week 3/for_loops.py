@@ -23,3 +23,12 @@ for step in range(stepsToTarget):
 
 # Output target achieved
 print("Target achieved!")
+
+# Ask user for brightness level
+print("What level of brightness is required?")
+level = int(input())
+
+print("Adjusting brightness... \n")
+# For loop to output brightness levels
+for i in range(2, level + 1, 2):
+    print(f"Brightness level:{"*" *i}")
