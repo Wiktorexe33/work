@@ -39,3 +39,16 @@ print("Please enter a phrase:")
 phrase = input()
 # Output Hi repeated as many times as the length of the phrase
 print("Hi " * len(phrase)) 
+
+# Set up counter and total variables
+counter = 0
+total = 0
+
+# Output to indicate start of calculation
+print("Calculating the sum of the first 100 numbers...")
+# Loop to calculate the sum
+while counter != 100:
+    counter += 1
+    total += counter
+# Output the result
+print("...Done! The answer is", total)
