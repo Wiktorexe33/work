@@ -20,3 +20,16 @@ while obstaclesAvoided < obstaclesToAvoid:
     obstaclesAvoided = obstaclesAvoided + 1
     print("Avoiding...Done! " + str(obstaclesAvoided) + " obstacles avoided.")
 print("All obstacles have been avoided.")
+
+
+# Ask user for amount of bars to charge
+print("How many bars should be charged?")
+barsToCharge= int(input())
+# Declare a counter variable
+barsCharged = 0
+# Output bars being charged
+while barsCharged < barsToCharge:
+    barsCharged = barsCharged + 1
+    print(f"Charging: {"█" * barsCharged}")
+
+print("The battery is fully charged.")
